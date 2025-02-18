@@ -1,2 +1,6 @@
-env 
+.ropeproject
+env
 wsl_env
+.pytest_cache
+**/__pycache__/
+

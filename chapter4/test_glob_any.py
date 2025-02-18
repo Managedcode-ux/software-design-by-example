@@ -15,6 +15,8 @@ def test_any_matches_as_prefix():
     # /*def/ matches "abcdef"
     assert Any(Lit("def")).match("abcdef")
 
+    # assert Any("def").match("abcdef")
+
 
 def test_any_matches_as_suffix():
     # /abc*/ matches "abcdef"
