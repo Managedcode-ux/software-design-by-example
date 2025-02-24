@@ -4,3 +4,6 @@ wsl_env
 .pytest_cache
 **/__pycache__/
 
+.aider*
+.env
+.idea
